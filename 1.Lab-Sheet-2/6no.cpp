@@ -23,10 +23,10 @@ void netPayment(employee &ep)
 
 int main()
 {
-    employee ceo = {50000, 9, "Chief Executive Officer"};
-    employee info = {40000, 10, "Information Officer"};
-    employee sysAnalyst = {30000, 12, "System Analyst"};
-    employee prog = {20000, 12, "Programmer"};
+    employee ceo = {35000, 9, "Chief Executive Officer"};
+    employee info = {25000, 10, "Information Officer"};
+    employee sysAnalyst = {24000, 12, "System Analyst"};
+    employee prog = {18000, 12, "Programmer"};
     netPayment(ceo);
     netPayment(info);
     netPayment(sysAnalyst);

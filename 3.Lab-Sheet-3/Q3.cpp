@@ -39,8 +39,8 @@ int main()
     car1.set(1, 550, 3.5);
     car1.show();
 
-    car1.set(2, 650, 5.6);
-    car1.show();
+    car2.set(2, 650, 5.6);
+    car2.show();
 
     return 0;
 }

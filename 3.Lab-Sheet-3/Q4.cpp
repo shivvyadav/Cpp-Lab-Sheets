@@ -94,13 +94,13 @@ int main()
 
     R.setData();
     R.display();
-    cout << "perimeter of circle:" << C.perimeter() << endl
-         << "area of circle:" << C.area() << endl;
+    cout << "perimeter of rectangle :" << R.perimeter() << endl
+         << "area of :rectangle " << R.area() << endl;
 
     T.setData();
     T.display();
-    cout << "perimeter of circle:" << C.perimeter() << endl
-         << "area of circle:" << C.area() << endl;
+    cout << "perimeter of triangle :" << T.perimeter() << endl
+         << "area of triangle :" << T.area() << endl;
 
     return 0;
 }

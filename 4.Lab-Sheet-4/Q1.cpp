@@ -41,7 +41,7 @@ public:
     void show12()
     {
         string format = (hours < 12) ? "AM" : "PM";
-        int h = hours % 12;
+        int h = (hours > 12) ? hours - 12 : hours;
         cout << "Time in 12-hour format is " << endl;
         cout << h << ":" << minutes << ":" << seconds << ":" << format << endl;
     }
